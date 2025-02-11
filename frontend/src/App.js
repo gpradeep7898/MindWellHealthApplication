@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import FindDoctor from "./pages/FindDoctor";
 import Chatbot from "./pages/Chatbot";
 import Sidebar from "./components/Sidebar";
+import "./App.css"; 
 
 function App() {
   return (
