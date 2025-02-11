@@ -1,8 +1,8 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import FindDoctor from "./pages/FindDoctor";
-import ChatBot from "./pages/ChatBot";  // Ensure case matches exactly
+import Chatbot from "./pages/Chatbot";
 import Sidebar from "./components/Sidebar";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/find-doctor" element={<FindDoctor />} />
-            <Route path="/chatbot" element={<ChatBot />} />
+            <Route path="/chatbot" element={<Chatbot />} />
           </Routes>
         </div>
       </div>
