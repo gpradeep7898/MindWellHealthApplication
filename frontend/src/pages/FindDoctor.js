@@ -7,7 +7,8 @@ const doctorsList = [
     { id: 1, name: "Dr. Sarah Johnson", specialty: "Psychologist", location: "New York, NY", lat: 40.7128, lng: -74.0060 },
     { id: 2, name: "Dr. James Anderson", specialty: "Therapist", location: "Los Angeles, CA", lat: 34.0522, lng: -118.2437 },
     { id: 3, name: "Dr. Emily Roberts", specialty: "Psychiatrist", location: "Chicago, IL", lat: 41.8781, lng: -87.6298 },
-    { id: 4, name: "Dr. Michael Smith", specialty: "Neurologist", location: "Houston, TX", lat: 29.7604, lng: -95.3698 }
+    { id: 4, name: "Dr. Michael Smith", specialty: "Neurologist", location: "Houston, TX", lat: 29.7604, lng: -95.3698 },
+    { id: 4, name: "Dr. Sai Alluri", specialty: "Dermatologist", location: "California, CA", lat: 29.7604, lng: -95.3698 }
 ];
 
 const FindDoctor = () => {
