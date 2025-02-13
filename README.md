@@ -98,19 +98,6 @@ Tracks mental health trends over time.
 A summary page displaying mood trends, journal logs, and community updates.
 📂 Project Structure
 
-MentalHealthApplication/
-│── frontend/
-│   ├── src/
-│   │   ├── components/      # Reusable UI components (Sidebar, Navbar, etc.)
-│   │   ├── pages/           # Individual pages (Home, ChatBot, FindDoctor, Dashboard)
-│   │   ├── services/        # Firebase configuration
-│   │   ├── App.js           # Main application file
-│   │   ├── index.js         # Entry point
-│   │   ├── styles/          # Global CSS
-│── README.md                # Project documentation
-│── package.json             # Dependencies
-│── .gitignore               # Ignored files (e.g., .env.local)
-📸 Screenshots
 
 🏠 Home Page
 🤖 AI Chatbot
