@@ -120,8 +120,8 @@ This project is open-source and available under the MIT License.
 📞 Contact
 
 For any questions or suggestions, feel free to reach out:
-📧 Email: pradeepgatti@example.com
-🐙 GitHub: @gpradeep7898
+📧 Email: gpradeep7898@gmail.com
+🐙 GitHub: https://github.com/gpradeep7898
 
 🚀 Ready to Deploy?
 We can deploy this app on Firebase Hosting or Vercel. Let me know if you need help setting that up! 🚀🔥
