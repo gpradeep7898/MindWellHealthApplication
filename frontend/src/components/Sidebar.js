@@ -1,17 +1,34 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import { FaHome, FaUserMd, FaComments, FaChartLine } from "react-icons/fa"; // Import icons
+import "./Sidebar.css";
 
-function Sidebar() {
-  return (
-    <div style={{ width: "250px", height: "100vh", background: "#f4f4f4", padding: "20px" }}>
-      <h2>Menu</h2>
-      <ul style={{ listStyleType: "none", padding: 0 }}>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/find-doctor">Find a Doctor</Link></li>
-        <li><Link to="/chatbot">AI Chatbot</Link></li>
-      </ul>
-    </div>
-  );
-}
+const Sidebar = () => {
+    const location = useLocation();
+
+    return (
+        <div className="sidebar">
+            <h2 className="logo">MindWell</h2>
+            <nav>
+                <Link to="/dashboard" className={location.pathname === "/dashboard" ? "active" : ""}>
+                    <FaChartLine className="icon" />
+                    Dashboard
+                </Link>
+                <Link to="/" className={location.pathname === "/" ? "active" : ""}>
+                    <FaHome className="icon" />
+                    Home
+                </Link>
+                <Link to="/find-doctor" className={location.pathname === "/find-doctor" ? "active" : ""}>
+                    <FaUserMd className="icon" />
+                    Find a Doctor
+                </Link>
+                <Link to="/ChatBot" className={location.pathname === "/ChatBot" ? "active" : ""}>
+                    <FaComments className="icon" />
+                    AI Chatbot
+                </Link>
+            </nav>
+        </div>
+    );
+};
 
 export default Sidebar;
