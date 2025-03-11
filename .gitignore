@@ -1,1 +1,3 @@
 frontend/.env.local
+backend/firebaseServiceAccount.json
+frontend/.env
